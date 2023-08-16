@@ -158,7 +158,7 @@ setup(
     install_requires=[
         "cython>=0.22.0",
         "numpy>=1.21.0",
-        "tsplib95",
+        "tsplib95 @ git+https://github.com/prayerslayer/tsplib95",
     ],
     packages=find_packages(),
     include_package_data=True,
